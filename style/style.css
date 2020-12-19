@@ -1,0 +1,495 @@
+main {
+    color: rgb(28, 28, 28);
+    background-color: rgb(232, 232, 232);
+    font-family: 'Noto Serif', serif;
+    line-height: 1.5em;
+    font-size: calc(0.6rem + 0.5vw);
+    padding: 20px 15vW;
+}
+
+
+/* HEADER */
+header {
+    background-color: rgb(232, 232, 232);
+    font-size: calc(0.5rem + 0.5vw);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100vw;
+}
+.logo {
+    width: 4vw;
+    height: 4vh;
+    padding-top: 1rem;
+}
+.claqueta {
+    display: flex;
+    align-self: center;
+}
+.oscars {
+    text-decoration: none;
+    font-size: calc(1.2rem + 0.5vw);
+    color:rgb(28, 28, 28);
+    padding: 1rem 0rem 0rem 1rem;
+    font-weight: bold;
+}
+.club {
+    color: rgb(155, 23, 0);
+    font-weight: lighter;
+}
+.sesion {
+    background-color: rgb(155, 23, 0);
+    border-radius: 0.2em;
+    font-size: calc(0.5rem + 0.5vw);
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    justify-self: end;
+    margin-right: 3rem;
+}
+.sesion a {
+    text-decoration: none;
+    color: white;
+}
+.sesion :hover {
+    color: rgb(28, 28, 28);
+}
+
+/* NAVEGADOR */
+nav a, .ariadna {
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+    font-weight: bold;
+}
+nav a:hover, .ariadna:hover {
+    color: rgba(28, 28, 28, 0.5);
+}
+.activo {
+    font-style: italic;
+}
+.enlaces li {
+    font-size: calc(0.5rem + 0.5vw);
+    margin-right: 2rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(67, 58, 68);
+    color: rgb(255, 255, 255);
+    font-size: calc(0.2rem + 0.5vw);
+    line-height: 1;
+}
+footer ul {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem
+}
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+footer p {
+    padding-left: 1rem;
+}
+footer a:hover {
+    color: rgb(28, 28, 28);
+}
+footer li:after {
+	content: "·";
+    padding: 0 10px;
+    color: rgb(255, 255, 255);
+}
+footer li:last-child:after {
+	display: none;
+}
+.footercontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+}
+.dere {
+    text-align: right;
+    padding-right: 1.5rem;
+}
+.arriba {
+    text-align: right;
+    padding-right: 1rem;
+    font-size: calc(2rem + 0.5vw);
+}
+
+/* TIPOGRAFIA Y FORMATO */
+h3 {
+    font-weight: lighter;
+    font-size: 125%;
+}
+h4 {
+    font-size: calc(0.6rem + 0.7vw);
+    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+ }
+h5 {
+    font-size: calc(0.6rem + 0.5vw);
+    margin-bottom: 0.5rem;
+}
+header li,
+footer li {
+    list-style-type: none;
+    display: inline-block;
+}
+header,
+footer,
+form,
+nav,
+h3,
+h4,
+h5,
+.ariadna {
+    font-family: 'Open Sans', sans-serif;
+}
+.centrado {
+    text-align: center;
+}
+.centradoEstrecho {
+    text-align: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-bottom: 3rem;
+}
+.smaller {
+    font-size: calc(0.2rem + 0.5vw);
+    line-height: normal;
+}
+.enlacerojo {
+    text-decoration: none;
+    color: rgb(155, 23, 0);
+}
+
+
+/* INDEX */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    gap: 20px;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    gap: 20px;
+    padding-bottom: 3rem;
+}
+.imagen {
+    max-width: 10vw;
+}
+.grande {
+    font-size: calc(1rem + 0.7vw);
+    line-height: 2rem;
+}
+
+/* FORMULARIO INDEX */
+form {
+    font-family: inherit;
+    width: 100%;
+}
+button,
+input {
+    font-family: inherit;
+    font-size: 100%;
+    margin-bottom: 1rem;
+}
+input {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 25vw;
+    border:1px solid rgb(110, 107, 107);
+}
+fieldset {
+    border: none;
+}
+button {
+    color: white;
+    background-color: #A01127;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: calc(0.5rem + 0.5vw);
+}
+.privacidad {
+    width: 100%;
+    padding: 0;
+}
+
+/* CLUBES TEMATICOS */
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+.imagensesiones {
+    max-width: 20vw;
+}
+.puntos {
+    color: rgb(155, 23, 0);
+    font-weight: bold;
+}
+
+/* SESIONES 2020 */
+.margen {
+    padding: 0vw 5vw 0vw 5vw; 
+}
+hr {
+    border-top: 4px dotted rgb(155, 23, 0);
+}
+.container4 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    gap: 20px;
+}
+.nodecoration {
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+}
+.container5 {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-gap: 15px;
+    gap: 15px;
+}
+.imagencartel {
+    max-width: 15vw;
+}
+figure img {
+    max-width: 100%;
+    margin-bottom: 0;
+}
+.fondo {
+    display: grid;
+    margin: 0;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(67, 58, 68, 0.5);
+}
+.figcaption {
+    align-self: flex-end;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    font-size: calc(0.5rem + 0.5vw);
+}
+
+/* DETALLE SESIONES */
+.klaus {
+    color: rgb(110, 107, 107);
+}
+.container6 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 20px;
+    gap: 20px;
+}
+dt {
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+}
+dl {
+    line-height: 1.6rem;
+}
+.Sergio {
+    clip-path: circle(50px at center);
+    float: left;
+    shape-outside: circle(50%);
+    max-width: 100px;
+    padding-right: 1rem;
+}
+.trailer {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/* @MEDIA */
+@media screen and (max-width: 599px) {
+    main {
+        width: 100vw;
+        padding: 0px 0vW;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+
+    /* HEADER */
+    header {
+        width: 100vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header li {
+        display: flex;
+        justify-content: center;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 7.5vw;
+    }
+    .sesion {
+        order: -1;
+        margin-top: 1rem;
+        margin-right: 0rem;
+    }
+
+    /* FOOTER */
+    footer {
+        width: 100vw;
+        padding-top: 2rem;
+        line-height: 2;
+    }
+    .footercontainer {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        font-size: calc(0.6rem + 0.7vw);
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    footer li {
+        text-align: center;
+    }
+    footer li:after {
+        content: "";
+        margin: 0 00px;
+        padding: 0 0px;
+    }
+    .izq {
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .dere {
+        padding: 0rem 0rem 2rem 0rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    footer p {
+        text-align: center;
+        line-height: 1;
+        font-size: calc(0.5rem + 0.5vw);
+    }
+
+    /* TIPOGRAFÍA */
+    h2 {
+        padding-top: 2rem;
+        margin-top: 0rem;
+    }
+    p {
+        margin-top: 0rem;
+    }
+
+    /* INDEX */
+    .container {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0px;
+        gap: 0px;
+    }
+    .imagen {
+        max-width: 40vw;
+    }
+    .container figure {
+        align-self: center;
+        text-align: center;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0px;
+        gap: 0px;
+        margin-left: 1rem;
+    }
+    input {
+        width: 80vw;
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .smaller {
+        font-size: calc(0.4rem + 0.5vw);
+        line-height: normal;
+    }
+    .privacidad {
+        width: 5vw;
+        margin-left: 0rem;
+    }
+
+    /* CLUBS TEMATICS */    
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0px;
+        gap: 0px;
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .imagensesiones {
+        max-width: 80vw;
+    }
+
+    /* SESIONES 2020 */
+    hr {
+        display: none;
+    }
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0px;
+        gap: 0px;
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 1rem;
+        gap: 1rem;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    .imagencartel {
+        max-width: 50vw;
+    }
+    .figcaption {
+        font-size: calc(0.7rem + 0.5vw);
+        font-weight: bold;
+    }
+
+    /* DETALLE SESIONES */
+    .klaus {
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .container6 {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0px;
+        gap: 0px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 2rem;
+        font-size: calc(0.6rem + 0.5vw);
+        line-height: 1.2rem;
+    }
+}
