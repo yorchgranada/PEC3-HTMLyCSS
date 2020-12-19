@@ -1,0 +1,115 @@
+<!DOCTYPE html >
+<html lang="es-ES">
+<head>
+    <meta charset="utf-8"/>
+    <title>Página de inicio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Página de inicio" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">   
+</head>
+<body>    
+    <header>
+        <div class="header">
+        <div class="claqueta"><a href="index.html" title="Página de inicio"><img src="img/oscarsclub-isologo.png" alt="logo oscars club" class="logo"></a><a href="index.html" title="Página de inicio" class="oscars">oscars<span class="club"><em>club</em></span></a></div>
+        <div class="enlaces">
+            <nav>
+                <ul>
+                    <li><a href="clubs-tematics.html">CLUBES TEMÁTICOS</a></li>
+                    <li><a href="sesiones-2020.html">SESIONES 2020</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="sesion"><a href="" title="Inicio de sesión">Iniciar sesión</a></div>
+        </div>
+    </header>
+
+<main>
+<article>
+<h2 class="centrado">¿Qué es Oscars Club?</h2>
+<p class="centradoEstrecho">Oscars Club organiza clubes virtuales de cine de diversos géneros y en diferentes lenguas, para los amantes del cine que quieran compartir reflexiones y debatir sobre las películas que les interesan sin necesidad de tener que ir a un espacio físico.</p>
+
+<h2 class="centrado">¿Cómo funciona?</h2>
+<div class="container">
+<figure>
+    <img src="img/howto-register.png" class="imagen">
+    <figcaption>Regístrate</figcaption> 
+</figure>
+
+<figure>
+    <img src="img/howto-club.png" class="imagen">
+    <figcaption>Inscríbete en un club</figcaption> 
+</figure>
+
+<figure>
+    <img src="img/howto-film.png" class="imagen">
+    <figcaption>Elige una película</figcaption> 
+</figure>
+
+<figure>
+    <img src="img/howto-speech.png" class="imagen">
+    <figcaption>Disfruta del debate</figcaption> 
+</figure>
+</div>
+
+<h2 class="centrado">Únete al club</h2>
+<div class="container2">
+<div class="proxima">
+    <p class="grande">Estamos mirando tu próxima película preferida.</p>
+    <p class="grande">¿Te lo vas a perder?</p>
+</div>
+<div>
+    <form name="Formulario de registro" action="formulario" method="post">
+        <fieldset>
+        <div class="gridbox">
+            <div>
+                <label for="name" class="labelblock" aria-label="required"></label>
+                <input type="text" placeholder="Nombre" required minlength="2" maxlength="64" id="name" name="nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,128}">
+            </div>
+            <div>
+                <label for="email"  class="labelblock" aria-label="required"></label>
+                <input type="email" placeholder="Correo electrónico" required minlength="2" maxlength="40" id="email" name="email">
+            </div>    
+            <div>
+                <label for="password" class="labelblock" aria-label="required"></label>
+                <input type="text" placeholder="Contraseña" minlength="2" maxlength="20" id="password" name="contraseña">
+            </div>
+        </div>
+        <p class="smaller">INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE <strong>OSCARS CLUB. Finalidades</strong>: recogida de datos para la inscripción como socio del interesado. <strong>Legitimación</strong>: Consentimiento del interesado. <strong>Destinatarios</strong>: No están previstas cesiones de datos a terceros, salvo obligación legal. <strong>Derechos</strong>: Puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y otros derechos dirigiéndose a oscarsclub@oscarsclub.org. <strong>Información Adicional</strong>: Puede ampliar la información en el enlace de <a href="" class="enlacerojo">Aviso Legal</a> y <a href="" class="enlacerojo">Política de privacidad</a>.</p>
+        <input type="checkbox" name="confirmacion" id="r1" value="ok" class="privacidad"><label for="r1" class="smaller">He leído y acepto la política de privacidad</label>
+        <br><button type="submit">REGISTRARSE</button>
+    </fieldset>
+    </form>
+</div>
+</div>
+    
+</article>
+</main>
+<footer>
+    <div class="footercontainer">
+    <div>
+    <ul class="izq">
+        <li><a href="" target="_blank">Sobre nosotros</a></li>
+        <li><a href="" target="_blank">Aviso legal</a></li>
+        <li><a href="" target="_blank">Política de privacidad</a></li>
+    </ul>
+    </div>
+    <div>
+    <ul class="dere">
+        <li><a href="" target="_blank">Facebook</a></li>
+        <li><a href="" target="_blank">Twitter</a></li>
+        <li><a href="" target="_blank">Youtube</a></li>
+    </ul>
+    </div>
+    </div>
+    <div>
+        <p class="espacio">&copy; 2020 Jorge Garay Cañamero</p>
+        <p><a href="https://www.flaticon.com" target="_blank">Iconos flaticon.com</a></p>
+        <p><a href="https://unsplash.com" target="_blank">Imágenes unsplash</a></p>
+    </div>
+
+    <div><p class="arriba"><a href="#arriba" >&xwedge;</a></p></div>
+</footer>
+</body>
+</html>
